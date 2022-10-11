@@ -1,0 +1,11 @@
+//Add to basket
+GET http://localhost:8080/store/order/add?id=111
+
+###
+GET http://localhost:8080/store/order/add?id=117&id=114&id=113&id=123
+
+###
+GET http://localhost:8080/store/order/add?id=118,122,112
+//Get
+###
+GET http://localhost:8080/store/order/get
